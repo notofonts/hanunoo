@@ -67,15 +67,15 @@
             "only": "NotoSansHanunoo-Regular.ttf"
         },
         {
-            "expectation": "uni1735.alt|uni1736.alt",
-            "features": { "salt": true },
-            "input": "᜵᜶",
+            "expectation": "uni1720|uni1735.alt|uni1736.alt",
+            "features": { "ss01": true },
+            "input": "ᜠ᜵᜶",
             "note": "Sylistic alternates",
             "only": "NotoSansHanunoo-Regular.ttf"
         },
         {
             "input": "ᜲᜠ",
-            "expectation": "uni25CC=0+594|uni1732=0@-14,-112+0|uni1722=1+521",
+            "expectation": "uni25CC=0+594|uni1732=0@-14,-112+0|uni1720=1+880",
             "note": "Ensure we're actually going through the USE!",
             "only": "NotoSansHanunoo-Regular.ttf"
         }
