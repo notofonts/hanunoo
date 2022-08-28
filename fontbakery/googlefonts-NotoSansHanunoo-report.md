@@ -1,29 +1,8 @@
 ## Fontbakery report
 
-Fontbakery version: 0.8.9
+Fontbakery version: 0.8.10
 
-<details><summary><b>[12] NotoSansHanunoo-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2017-2021 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansHanunoo/googlefonts/ttf/NotoSansHanunoo-Regular.ttf']. [code: missing-os2-fsselection-bit7]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
+<details><summary><b>[7] NotoSansHanunoo-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
 
 
 * 🔥 **FAIL** qa/shaping_tests/hanunoo.json: Expected and actual shaping not matching
@@ -97,14 +76,14 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 81
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1474 2362" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 793)"/>
-<path d=""  transform="translate(580, 681)"/>
-<path d=""  transform="translate(594, 793)"/>
+<path d="M323.0,514.0Q323.0,487.0 297.0,487.0Q271.0,487.0 271.0,514.0Q271.0,540.0 297.0,540.0Q323.0,540.0 323.0,514.0ZM408.0,496.0Q408.0,470.0 383.0,470.0Q355.0,470.0 355.0,496.0Q355.0,523.0 383.0,523.0Q408.0,523.0 408.0,496.0ZM239.0,496.0Q239.0,470.0 212.0,470.0Q186.0,470.0 186.0,496.0Q186.0,523.0 212.0,523.0Q239.0,523.0 239.0,496.0ZM480.0,448.0Q480.0,422.0 455.0,422.0Q428.0,422.0 428.0,448.0Q428.0,475.0 455.0,475.0Q480.0,475.0 480.0,448.0ZM167.0,448.0Q167.0,422.0 140.0,422.0Q114.0,422.0 114.0,447.0Q114.0,475.0 140.0,475.0Q167.0,475.0 167.0,448.0ZM529.0,376.0Q529.0,349.0 502.0,349.0Q476.0,349.0 476.0,376.0Q476.0,402.0 503.0,402.0Q529.0,402.0 529.0,376.0ZM118.0,376.0Q118.0,349.0 93.0,349.0Q65.0,349.0 65.0,376.0Q65.0,402.0 92.0,402.0Q118.0,402.0 118.0,376.0ZM546.0,291.0Q546.0,265.0 521.0,265.0Q494.0,265.0 494.0,291.0Q494.0,317.0 521.0,317.0Q546.0,317.0 546.0,291.0ZM101.0,291.0Q101.0,265.0 75.0,265.0Q48.0,265.0 48.0,291.0Q48.0,317.0 75.0,317.0Q101.0,317.0 101.0,291.0ZM529.0,206.0Q529.0,180.0 502.0,180.0Q476.0,180.0 476.0,206.0Q476.0,233.0 502.0,233.0Q529.0,233.0 529.0,206.0ZM118.0,206.0Q118.0,180.0 92.0,180.0Q65.0,180.0 65.0,206.0Q65.0,233.0 92.0,233.0Q118.0,233.0 118.0,206.0ZM480.0,133.0Q480.0,107.0 455.0,107.0Q428.0,107.0 428.0,133.0Q428.0,160.0 455.0,160.0Q480.0,160.0 480.0,133.0ZM167.0,133.0Q167.0,107.0 140.0,107.0Q114.0,107.0 114.0,133.0Q114.0,160.0 140.0,160.0Q167.0,160.0 167.0,133.0ZM408.0,85.0Q408.0,60.0 383.0,60.0Q355.0,60.0 355.0,85.0Q355.0,112.0 383.0,112.0Q408.0,112.0 408.0,85.0ZM239.0,87.0Q239.0,60.0 212.0,60.0Q186.0,60.0 186.0,85.0Q186.0,112.0 212.0,112.0Q239.0,112.0 239.0,87.0ZM323.0,69.0Q323.0,42.0 297.0,42.0Q271.0,42.0 271.0,69.0Q271.0,95.0 297.0,95.0Q323.0,95.0 323.0,69.0Z"  transform="translate(0, 793)"/>
+<path d="M-409.0,732.0L-393.0,800.0L-103.0,800.0L-119.0,732.0L-409.0,732.0Z"  transform="translate(580, 681)"/>
+<path d="M143.0,0.0L253.0,478.0L31.0,369.0L52.0,459.0L218.0,540.0Q237.0,549.0 254.5,554.0Q272.0,559.0 289.0,559.0Q312.0,559.0 322.0,544.0Q332.0,529.0 332.0,511.0Q332.0,483.0 323.0,442.0Q314.0,401.0 297.0,327.0L271.0,216.0Q264.0,187.0 257.0,158.5Q250.0,130.0 239.0,93.0Q263.0,111.0 289.5,133.0Q316.0,155.0 341.0,175.0Q420.0,241.0 501.5,318.0Q583.0,395.0 662.0,476.0Q741.0,557.0 810.0,634.0L906.0,634.0Q838.0,559.0 757.0,473.0Q676.0,387.0 587.0,300.0Q498.0,213.0 405.5,135.0Q313.0,57.0 222.0,0.0L143.0,0.0Z"  transform="translate(594, 793)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1115 2362" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 793)"/>
-<path d=""  transform="translate(580, 681)"/>
-<path d=""  transform="translate(594, 793)"/>
+<path d="M323.0,514.0Q323.0,487.0 297.0,487.0Q271.0,487.0 271.0,514.0Q271.0,540.0 297.0,540.0Q323.0,540.0 323.0,514.0ZM408.0,496.0Q408.0,470.0 383.0,470.0Q355.0,470.0 355.0,496.0Q355.0,523.0 383.0,523.0Q408.0,523.0 408.0,496.0ZM239.0,496.0Q239.0,470.0 212.0,470.0Q186.0,470.0 186.0,496.0Q186.0,523.0 212.0,523.0Q239.0,523.0 239.0,496.0ZM480.0,448.0Q480.0,422.0 455.0,422.0Q428.0,422.0 428.0,448.0Q428.0,475.0 455.0,475.0Q480.0,475.0 480.0,448.0ZM167.0,448.0Q167.0,422.0 140.0,422.0Q114.0,422.0 114.0,447.0Q114.0,475.0 140.0,475.0Q167.0,475.0 167.0,448.0ZM529.0,376.0Q529.0,349.0 502.0,349.0Q476.0,349.0 476.0,376.0Q476.0,402.0 503.0,402.0Q529.0,402.0 529.0,376.0ZM118.0,376.0Q118.0,349.0 93.0,349.0Q65.0,349.0 65.0,376.0Q65.0,402.0 92.0,402.0Q118.0,402.0 118.0,376.0ZM546.0,291.0Q546.0,265.0 521.0,265.0Q494.0,265.0 494.0,291.0Q494.0,317.0 521.0,317.0Q546.0,317.0 546.0,291.0ZM101.0,291.0Q101.0,265.0 75.0,265.0Q48.0,265.0 48.0,291.0Q48.0,317.0 75.0,317.0Q101.0,317.0 101.0,291.0ZM529.0,206.0Q529.0,180.0 502.0,180.0Q476.0,180.0 476.0,206.0Q476.0,233.0 502.0,233.0Q529.0,233.0 529.0,206.0ZM118.0,206.0Q118.0,180.0 92.0,180.0Q65.0,180.0 65.0,206.0Q65.0,233.0 92.0,233.0Q118.0,233.0 118.0,206.0ZM480.0,133.0Q480.0,107.0 455.0,107.0Q428.0,107.0 428.0,133.0Q428.0,160.0 455.0,160.0Q480.0,160.0 480.0,133.0ZM167.0,133.0Q167.0,107.0 140.0,107.0Q114.0,107.0 114.0,133.0Q114.0,160.0 140.0,160.0Q167.0,160.0 167.0,133.0ZM408.0,85.0Q408.0,60.0 383.0,60.0Q355.0,60.0 355.0,85.0Q355.0,112.0 383.0,112.0Q408.0,112.0 408.0,85.0ZM239.0,87.0Q239.0,60.0 212.0,60.0Q186.0,60.0 186.0,85.0Q186.0,112.0 212.0,112.0Q239.0,112.0 239.0,87.0ZM323.0,69.0Q323.0,42.0 297.0,42.0Q271.0,42.0 271.0,69.0Q271.0,95.0 297.0,95.0Q323.0,95.0 323.0,69.0Z"  transform="translate(0, 793)"/>
+<path d="M-409.0,732.0L-393.0,800.0L-103.0,800.0L-119.0,732.0L-409.0,732.0Z"  transform="translate(580, 681)"/>
+<path d="M115.0,0.0L411.0,294.0L129.0,294.0L129.0,345.0L300.0,494.0Q315.0,507.0 331.0,520.5Q347.0,534.0 365.0,547.0Q346.0,544.0 331.0,542.5Q316.0,541.0 300.0,541.0Q251.0,541.0 203.0,548.5Q155.0,556.0 117.0,571.0L143.0,634.0Q184.0,624.0 224.5,617.5Q265.0,611.0 332.0,611.0Q382.0,611.0 432.5,617.0Q483.0,623.0 523.0,634.0L523.0,594.0L255.0,362.0L523.0,362.0L523.0,304.0L213.0,0.0L115.0,0.0Z"  transform="translate(594, 793)"/>
 </svg>
 
 
@@ -140,13 +119,6 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
 	 uni1734 (U+1734) [code: spacing-mark-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -185,8 +157,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 5 | 7 | 115 | 8 | 100 | 0 |
-| 0% | 2% | 3% | 49% | 3% | 43% | 0% |
+| 0 | 1 | 6 | 110 | 7 | 103 | 0 |
+| 0% | 0% | 3% | 48% | 3% | 45% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
