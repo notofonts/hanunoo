@@ -1,5 +1,8 @@
 {
-.appVersion = "3109";
+.appVersion = "3180";
+DisplayStrings = (
+"/uni1734"
+);
 copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/hanunoo)";
 customParameters = (
 {
@@ -1343,7 +1346,7 @@ subCategory = Nonspacing;
 },
 {
 glyphname = uni1734;
-lastChange = "2017-09-05 20:14:34 +0000";
+lastChange = "2023-04-19 11:33:55 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -1366,6 +1369,7 @@ width = 691;
 }
 );
 unicode = 1734;
+category = Other;
 },
 {
 glyphname = uni1735;
