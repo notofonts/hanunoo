@@ -124,7 +124,7 @@ disablesNiceNames = 1;
 familyName = "Noto Sans Hanunoo";
 featurePrefixes = (
 {
-code = "languagesystem hano dflt;\012";
+code = "languagesystem DFLT dflt;\012languagesystem hano dflt;\012";
 name = Languagesystems;
 }
 );
