@@ -1,7 +1,7 @@
 {
-.appVersion = "3180";
+.appVersion = "3316";
 DisplayStrings = (
-"/uni1734"
+"/uni1724/uni1725/uni1726/uni1729/uni172E/uni1730/uni1726uni1733/uni172C/uni1726/uni172D/uni1724/uni1725/uni1726/uni1729/uni172E"
 );
 copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/hanunoo)";
 customParameters = (
@@ -104,12 +104,12 @@ name = licenseURL;
 value = "https://scripts.sil.org/OFL";
 },
 {
-name = vendorID;
-value = GOOG;
-},
-{
 name = trademark;
 value = "Noto is a trademark of Google Inc.";
+},
+{
+name = vendorID;
+value = GOOG;
 },
 {
 name = versionString;
@@ -517,7 +517,7 @@ unicode = 1723;
 },
 {
 glyphname = uni1724;
-lastChange = "2017-09-05 20:14:34 +0000";
+lastChange = "2024-09-04 08:30:37 +0000";
 layers = (
 {
 anchors = (
@@ -528,6 +528,12 @@ position = "{585, 722}";
 {
 name = Anchor4;
 position = "{527, -127}";
+}
+);
+guideLines = (
+{
+angle = 76.9209;
+position = "{534, 198}";
 }
 );
 layerId = UUID0;
@@ -608,13 +614,19 @@ unicode = 1725;
 },
 {
 glyphname = uni1726;
-lastChange = "2017-09-05 20:14:34 +0000";
+lastChange = "2024-09-04 08:29:11 +0000";
 layers = (
 {
 anchors = (
 {
 name = Anchor2;
 position = "{624, 722}";
+}
+);
+guideLines = (
+{
+angle = 256.7402;
+position = "{257, 469}";
 }
 );
 layerId = UUID0;
@@ -645,9 +657,9 @@ nodes = (
 "544 634 LINE",
 "284 289 LINE SMOOTH",
 "250 244 OFFCURVE",
-"208 188 OFFCURVE",
-"177 148 CURVE",
-"190 192 OFFCURVE",
+"207 188 OFFCURVE",
+"176 148 CURVE",
+"189 192 OFFCURVE",
 "205 247 OFFCURVE",
 "218 303 CURVE SMOOTH",
 "296 634 LINE",
@@ -1026,23 +1038,70 @@ width = 875;
 unicode = 172C;
 },
 {
+color = 4;
 glyphname = uni172D;
-lastChange = "2017-09-05 20:14:34 +0000";
+lastChange = "2024-09-04 08:45:13 +0000";
 layers = (
 {
+anchors = (
+{
+name = Anchor2;
+position = "{830, 722}";
+},
+{
+name = Anchor4;
+position = "{772, -127}";
+}
+);
 layerId = UUID0;
 paths = (
 {
 closed = 1;
 nodes = (
-"539 295 LINE",
-"555 363 LINE",
-"84 363 LINE",
-"68 295 LINE"
+"149 0 LINE",
+"403 365 LINE SMOOTH",
+"442 421 OFFCURVE",
+"475 471 OFFCURVE",
+"498 507 CURVE",
+"484 447 OFFCURVE",
+"477 413 OFFCURVE",
+"468 365 CURVE SMOOTH",
+"400 0 LINE",
+"479 0 LINE",
+"759 365 LINE SMOOTH",
+"793 409 OFFCURVE",
+"821 456 OFFCURVE",
+"851 499 CURVE",
+"842 466 OFFCURVE",
+"828 408 OFFCURVE",
+"824 391 CURVE SMOOTH",
+"733 0 LINE",
+"813 0 LINE",
+"959 634 LINE",
+"880 634 LINE",
+"606 276 LINE SMOOTH",
+"576 237 OFFCURVE",
+"527 173 OFFCURVE",
+"495 127 CURVE",
+"504 173 OFFCURVE",
+"517 233 OFFCURVE",
+"526 282 CURVE SMOOTH",
+"593 634 LINE",
+"514 634 LINE",
+"268 288 LINE SMOOTH",
+"242 251 OFFCURVE",
+"238 244 OFFCURVE",
+"177 148 CURVE",
+"191 198 OFFCURVE",
+"205 249 OFFCURVE",
+"220 312 CURVE SMOOTH",
+"296 634 LINE",
+"216 634 LINE",
+"70 0 LINE"
 );
 }
 );
-width = 613;
+width = 1029;
 }
 );
 unicode = 172D;
@@ -2566,6 +2625,28 @@ width = 594;
 );
 note = uni25CC;
 unicode = 25CC;
+},
+{
+color = 5;
+glyphname = uni172D.alt;
+lastChange = "2024-09-04 08:09:22 +0000";
+layers = (
+{
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"539 295 LINE",
+"555 363 LINE",
+"84 363 LINE",
+"68 295 LINE"
+);
+}
+);
+width = 613;
+}
+);
 }
 );
 instances = (
