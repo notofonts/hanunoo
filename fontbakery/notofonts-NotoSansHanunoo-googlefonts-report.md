@@ -10,7 +10,7 @@ fontbakery version: 0.12.10
 
 
 
-<details><summary>[11] NotoSansHanunoo-Regular.ttf</summary>
+<details><summary>[8] NotoSansHanunoo-Regular.ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Check for presence of an ARTICLE.en_us.html file <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.description.html#"></a></summary>
@@ -29,84 +29,6 @@ fontbakery version: 0.12.10
 
 * 🔥 **FAIL** <p>This is a Noto font but it lacks a DESCRIPTION.en_us.html file.</p>
  [code: missing-description]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check that texts shape as per expectation <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>qa/shaping_tests/hanunoo.json: Expected and actual shaping not matching</p>
-<ul>
-<li>
-<p>Shaping did not match: ᜲᜠ (Ensure we're actually going through the USE!)</p>
-<pre><code>Expected: uni25CC=0+594|uni1732=0@-14,-112+0|uni1720=1+880
-Got     : uni25CC=0+594|uni1732=0+0|uni1720=1+880
-                                 +++++++++
-</code></pre>
-<p>Got: <svg style="height:100px;margin:10px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 -293 1500 1362" transform="matrix(1 0 0 -1 0 0)"> <defs> <path id="g47" d="M323.0,514.0Q323.0,487.0 297.0,487.0Q271.0,487.0 271.0,514.0Q271.0,540.0 297.0,540.0Q323.0,540.0 323.0,514.0ZM408.0,496.0Q408.0,470.0 383.0,470.0Q355.0,470.0 355.0,496.0Q355.0,523.0 383.0,523.0Q408.0,523.0 408.0,496.0ZM239.0,496.0Q239.0,470.0 212.0,470.0Q186.0,470.0 186.0,496.0Q186.0,523.0 212.0,523.0Q239.0,523.0 239.0,496.0ZM480.0,448.0Q480.0,422.0 455.0,422.0Q428.0,422.0 428.0,448.0Q428.0,475.0 455.0,475.0Q480.0,475.0 480.0,448.0ZM167.0,448.0Q167.0,422.0 140.0,422.0Q114.0,422.0 114.0,447.0Q114.0,475.0 140.0,475.0Q167.0,475.0 167.0,448.0ZM529.0,376.0Q529.0,349.0 502.0,349.0Q476.0,349.0 476.0,376.0Q476.0,402.0 503.0,402.0Q529.0,402.0 529.0,376.0ZM118.0,376.0Q118.0,349.0 93.0,349.0Q65.0,349.0 65.0,376.0Q65.0,402.0 92.0,402.0Q118.0,402.0 118.0,376.0ZM546.0,291.0Q546.0,265.0 521.0,265.0Q494.0,265.0 494.0,291.0Q494.0,317.0 521.0,317.0Q546.0,317.0 546.0,291.0ZM101.0,291.0Q101.0,265.0 75.0,265.0Q48.0,265.0 48.0,291.0Q48.0,317.0 75.0,317.0Q101.0,317.0 101.0,291.0ZM529.0,206.0Q529.0,180.0 502.0,180.0Q476.0,180.0 476.0,206.0Q476.0,233.0 502.0,233.0Q529.0,233.0 529.0,206.0ZM118.0,206.0Q118.0,180.0 92.0,180.0Q65.0,180.0 65.0,206.0Q65.0,233.0 92.0,233.0Q118.0,233.0 118.0,206.0ZM480.0,133.0Q480.0,107.0 455.0,107.0Q428.0,107.0 428.0,133.0Q428.0,160.0 455.0,160.0Q480.0,160.0 480.0,133.0ZM167.0,133.0Q167.0,107.0 140.0,107.0Q114.0,107.0 114.0,133.0Q114.0,160.0 140.0,160.0Q167.0,160.0 167.0,133.0ZM408.0,85.0Q408.0,60.0 383.0,60.0Q355.0,60.0 355.0,85.0Q355.0,112.0 383.0,112.0Q408.0,112.0 408.0,85.0ZM239.0,87.0Q239.0,60.0 212.0,60.0Q186.0,60.0 186.0,85.0Q186.0,112.0 212.0,112.0Q239.0,112.0 239.0,87.0ZM323.0,69.0Q323.0,42.0 297.0,42.0Q271.0,42.0 271.0,69.0Q271.0,95.0 297.0,95.0Q323.0,95.0 323.0,69.0Z"/> <path id="g23" d="M-409.0,732.0L-393.0,800.0L-103.0,800.0L-119.0,732.0L-409.0,732.0Z"/> <path id="g5" d="M143.0,0.0L253.0,478.0L31.0,369.0L52.0,459.0L218.0,540.0Q237.0,549.0 254.5,554.0Q272.0,559.0 289.0,559.0Q312.0,559.0 322.0,544.0Q332.0,529.0 332.0,511.0Q332.0,483.0 323.0,442.0Q314.0,401.0 297.0,327.0L271.0,216.0Q264.0,187.0 257.0,158.5Q250.0,130.0 239.0,93.0Q263.0,111.0 289.5,133.0Q316.0,155.0 341.0,175.0Q420.0,241.0 501.5,318.0Q583.0,395.0 662.0,476.0Q741.0,557.0 810.0,634.0L906.0,634.0Q838.0,559.0 757.0,473.0Q676.0,387.0 587.0,300.0Q498.0,213.0 405.5,135.0Q313.0,57.0 222.0,0.0L143.0,0.0Z"/> </defs> <g transform="translate(0,0)"> <use href="#g47"/> </g> <g transform="translate(594,0)"> <use href="#g23"/> </g> <g transform="translate(594,0)"> <use href="#g5"/> </g> </svg>  Expected: <svg style="height:100px;margin:10px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 -293 1500 1362" transform="matrix(1 0 0 -1 0 0)"> <defs> <path id="g47" d="M323.0,514.0Q323.0,487.0 297.0,487.0Q271.0,487.0 271.0,514.0Q271.0,540.0 297.0,540.0Q323.0,540.0 323.0,514.0ZM408.0,496.0Q408.0,470.0 383.0,470.0Q355.0,470.0 355.0,496.0Q355.0,523.0 383.0,523.0Q408.0,523.0 408.0,496.0ZM239.0,496.0Q239.0,470.0 212.0,470.0Q186.0,470.0 186.0,496.0Q186.0,523.0 212.0,523.0Q239.0,523.0 239.0,496.0ZM480.0,448.0Q480.0,422.0 455.0,422.0Q428.0,422.0 428.0,448.0Q428.0,475.0 455.0,475.0Q480.0,475.0 480.0,448.0ZM167.0,448.0Q167.0,422.0 140.0,422.0Q114.0,422.0 114.0,447.0Q114.0,475.0 140.0,475.0Q167.0,475.0 167.0,448.0ZM529.0,376.0Q529.0,349.0 502.0,349.0Q476.0,349.0 476.0,376.0Q476.0,402.0 503.0,402.0Q529.0,402.0 529.0,376.0ZM118.0,376.0Q118.0,349.0 93.0,349.0Q65.0,349.0 65.0,376.0Q65.0,402.0 92.0,402.0Q118.0,402.0 118.0,376.0ZM546.0,291.0Q546.0,265.0 521.0,265.0Q494.0,265.0 494.0,291.0Q494.0,317.0 521.0,317.0Q546.0,317.0 546.0,291.0ZM101.0,291.0Q101.0,265.0 75.0,265.0Q48.0,265.0 48.0,291.0Q48.0,317.0 75.0,317.0Q101.0,317.0 101.0,291.0ZM529.0,206.0Q529.0,180.0 502.0,180.0Q476.0,180.0 476.0,206.0Q476.0,233.0 502.0,233.0Q529.0,233.0 529.0,206.0ZM118.0,206.0Q118.0,180.0 92.0,180.0Q65.0,180.0 65.0,206.0Q65.0,233.0 92.0,233.0Q118.0,233.0 118.0,206.0ZM480.0,133.0Q480.0,107.0 455.0,107.0Q428.0,107.0 428.0,133.0Q428.0,160.0 455.0,160.0Q480.0,160.0 480.0,133.0ZM167.0,133.0Q167.0,107.0 140.0,107.0Q114.0,107.0 114.0,133.0Q114.0,160.0 140.0,160.0Q167.0,160.0 167.0,133.0ZM408.0,85.0Q408.0,60.0 383.0,60.0Q355.0,60.0 355.0,85.0Q355.0,112.0 383.0,112.0Q408.0,112.0 408.0,85.0ZM239.0,87.0Q239.0,60.0 212.0,60.0Q186.0,60.0 186.0,85.0Q186.0,112.0 212.0,112.0Q239.0,112.0 239.0,87.0ZM323.0,69.0Q323.0,42.0 297.0,42.0Q271.0,42.0 271.0,69.0Q271.0,95.0 297.0,95.0Q323.0,95.0 323.0,69.0Z"/> <path id="g23" d="M-409.0,732.0L-393.0,800.0L-103.0,800.0L-119.0,732.0L-409.0,732.0Z"/> <path id="g5" d="M143.0,0.0L253.0,478.0L31.0,369.0L52.0,459.0L218.0,540.0Q237.0,549.0 254.5,554.0Q272.0,559.0 289.0,559.0Q312.0,559.0 322.0,544.0Q332.0,529.0 332.0,511.0Q332.0,483.0 323.0,442.0Q314.0,401.0 297.0,327.0L271.0,216.0Q264.0,187.0 257.0,158.5Q250.0,130.0 239.0,93.0Q263.0,111.0 289.5,133.0Q316.0,155.0 341.0,175.0Q420.0,241.0 501.5,318.0Q583.0,395.0 662.0,476.0Q741.0,557.0 810.0,634.0L906.0,634.0Q838.0,559.0 757.0,473.0Q676.0,387.0 587.0,300.0Q498.0,213.0 405.5,135.0Q313.0,57.0 222.0,0.0L143.0,0.0Z"/> </defs> <g transform="translate(0,0)"> <use href="#g47"/> </g> <g transform="translate(580,-112)"> <use href="#g23"/> </g> <g transform="translate(594,0)"> <use href="#g5"/> </g> </svg></p>
-</li>
-</ul>
- [code: shaping-regression]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- brevecomb
-
-- caroncomb
-
-- cedillacomb
-
-- circumflexcomb
-
-- commaaccentcomb
-
-- dieresiscomb
-
-- dotaccentcomb
-
-- gravecomb
-
-- hungarumlautcomb
-
-- macroncomb
-
-- ogonekcomb
-
-- ringcomb
-
-- tildecomb
-
-- uni1732
-
-- uni1733
-</code></pre>
- [code: unattached-dotted-circle-marks]
 
 
 
@@ -134,27 +56,6 @@ Got     : uni25CC=0+594|uni1732=0+0|uni1720=1+880
 - Glyph name: uogonek	Contours detected: 2	Expected: 1
 </code></pre>
  [code: contour-count]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check math signs have the same width. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The most common width is 572 among a set of 6 math glyphs.
-The following math glyphs have a different width, though:</p>
-<p>Width = 322:
-minus</p>
- [code: width-outliers]
 
 
 
@@ -215,20 +116,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh</li>
-<li>U+02C9 MODIFIER LETTER MACRON: not included in any glyphset definition</li>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, old-permic, tai-le, syriac, coptic, math, malayalam, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, math, syriac, coptic, tai-le, malayalam, hebrew, old-permic, duployan, todhri, canadian-aboriginal</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
-<li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
-<li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
+<li>U+0326 COMBINING COMMA BELOW: try adding math</li>
+<li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>hanunoo</code>, <code>latin</code>, <code>latin-ext</code></p>
@@ -251,8 +149,8 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̧̀ į̧́ į̧̂ į̧̃</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Basaa (Latn, 332,940 speakers), Cicipu (Latn, 44,000 speakers), Navajo (Latn, 166,319 speakers), Fur (Latn, 1,230,163 speakers), Lugbara (Latn, 2,200,000 speakers), Avokaya (Latn, 100,000 speakers), Ekpeye (Latn, 226,000 speakers), Nzakara (Latn, 50,000 speakers), Zapotec (Latn, 490,000 speakers), Southern Kisi (Latn, 360,000 speakers), Yala (Latn, 200,000 speakers), Sar (Latn, 500,000 speakers), Bafut (Latn, 158,146 speakers), Dan (Latn, 1,099,244 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Ejagham (Latn, 120,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Mundani (Latn, 34,000 speakers), Nateni (Latn, 100,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Kom (Latn, 360,685 speakers), Vute (Latn, 21,000 speakers), Ebira (Latn, 2,200,000 speakers), Mango (Latn, 77,000 speakers), Aghem (Latn, 38,843 speakers), Belarusian (Cyrl, 10,064,517 speakers), Makaa (Latn, 221,000 speakers), Igbo (Latn, 27,823,640 speakers), Koonzime (Latn, 40,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Gulay (Latn, 250,478 speakers), Dii (Latn, 71,000 speakers), South Central Banda (Latn, 244,000 speakers), Mfumte (Latn, 79,000 speakers), Ma’di (Latn, 584,000 speakers).</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ijo, Southeast (Latn, 2,471,000 speakers), South Central Banda (Latn, 244,000 speakers), Makaa (Latn, 221,000 speakers), Fur (Latn, 1,230,163 speakers), Ngbaka (Latn, 1,020,000 speakers), Kom (Latn, 360,685 speakers), Ekpeye (Latn, 226,000 speakers), Heiltsuk (Latn, 300 speakers), Koonzime (Latn, 40,000 speakers), Mango (Latn, 77,000 speakers), Sar (Latn, 500,000 speakers), Navajo (Latn, 166,319 speakers), Zapotec (Latn, 490,000 speakers), Basaa (Latn, 332,940 speakers), Bafut (Latn, 158,146 speakers), Kaska (Latn, 125 speakers), Dan (Latn, 1,099,244 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Ma’di (Latn, 584,000 speakers), Nateni (Latn, 100,000 speakers), Dii (Latn, 71,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Mfumte (Latn, 79,000 speakers), Nzakara (Latn, 50,000 speakers), Lugbara (Latn, 2,200,000 speakers), Mundani (Latn, 34,000 speakers), Gulay (Latn, 250,478 speakers), Cicipu (Latn, 44,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Ejagham (Latn, 120,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Yala (Latn, 200,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Aghem (Latn, 38,843 speakers), Han (Latn, 6 speakers), Avokaya (Latn, 100,000 speakers), Igbo (Latn, 27,823,640 speakers), Southern Kisi (Latn, 360,000 speakers), Vute (Latn, 21,000 speakers), Ebira (Latn, 2,200,000 speakers).</p>
  [code: soft-dotted]
 
 
@@ -465,8 +363,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 3 | 8 | 116 | 6 | 118 | 0 | 
-| 0% | 0% | 1% | 3% | 46% | 2% | 47% | 0% | 
+| 0 | 0 | 1 | 7 | 116 | 6 | 121 | 0 | 
+| 0% | 0% | 0% | 3% | 46% | 2% | 48% | 0% | 
 
 
 
